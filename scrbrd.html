@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="scrbrd.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sedan"
+    />
+  </head>
+  <body>
+    <div class="junction">
+      <div class="blocks">
+        <h1>Home</h1>
+        <div class="display">
+          <p id="homedis">0</p>
+        </div>
+        <div class="buttons">
+          <button onclick="plusone()">+1</button>
+          <button onclick="plustwo()">+2</button>
+          <button onclick="plusthree()">+3</button>
+        </div>
+      </div>
+      <div class="blocks">
+        <h1>Guest</h1>
+        <div class="display">
+          <p id="guestdis">0</p>
+        </div>
+        <div class="buttons">
+          <button onclick="plusonee()">+1</button>
+          <button onclick="plustwoo()">+2</button>
+          <button onclick="plusthreee()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="button-div">
+      <button id="newgame" onclick="reset()">New Game</button>
+    </div>
+    <script src="scrbrd.js"></script>
+  </body>
+</html>
